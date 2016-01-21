@@ -1,0 +1,1 @@
+export { default } from 'ember-read-more/components/read-more';
