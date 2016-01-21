@@ -1,4 +1,5 @@
 # Ember-read-more
+[![Build Status](https://travis-ci.org/sprocketc/ember-read-more.svg?branch=master)](https://travis-ci.org/sprocketc/ember-read-more) [![Code Climate](https://codeclimate.com/github/sprocketc/ember-read-more/badges/gpa.svg)](https://codeclimate.com/github/sprocketc/ember-read-more) [![npm version](https://badge.fury.io/js/ember-read-more.svg)](https://badge.fury.io/js/ember-read-more)
 
 A simple read-more component for ember, using maximum height.
 
