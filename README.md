@@ -48,7 +48,7 @@ Adding the following in your project styles should do the trick:
 ```
 .read-more-body {
   max-height: 1000px; // set a height that your content will not exceed
-  transition: max-height .3s;  // change the .3s to the duration you wany
+  transition: max-height .3s;  // change the .3s to the duration you want
 }
 ```
 
