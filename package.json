@@ -1,6 +1,6 @@
 {
   "name": "ember-read-more",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "A simple read-more component for ember.",
   "directories": {
     "doc": "doc",
