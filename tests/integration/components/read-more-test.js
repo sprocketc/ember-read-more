@@ -51,6 +51,20 @@ test('should have correct toggle text', function(assert) {
   assert.equal(this.$('a').text().trim(), 'Close', 'link text is "Close"');
 });
 
+test('should have correct body styles', function(assert) {
+  assert.expect(2);
+
+  this.set('isOpen', false);
+
+  this.render(hbs`{{read-more isOpen=isOpen}}`);
+
+  assert.equal(this.$('.read-more-body').attr('style'), 'overflow-y: hidden; width: 100%; display: block; max-height: 200px;', 'closed body styles are correct');
+
+  this.set('isOpen', true);
+
+  assert.equal(this.$('.read-more-body').attr('style'), 'overflow-y: hidden; width: 100%; display: block;', 'open body styles are correct');
+});
+
 test('should trigger `onOpen` action', function(assert) {
   assert.expect(1);
 

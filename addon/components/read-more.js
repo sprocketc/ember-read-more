@@ -21,7 +21,7 @@ export default Ember.Component.extend({
   bodyStyle: Ember.computed('isOpen', 'maxHeight', 'bodyCss', function() {
     let styles = this.get('bodyCss');
     if (!this.get('isOpen')) {
-      styles += 'max-height: ' + this.get('maxHeight') + ';';
+      styles += ' max-height: ' + this.get('maxHeight') + ';';
     }
     return new Ember.Handlebars.SafeString(styles);
   }),
