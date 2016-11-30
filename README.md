@@ -12,7 +12,7 @@ A simple read-more component for ember, using maximum height.
 ```
 {{#read-more}}
   Lorem ipsum...
-{{/readmore}}
+{{/read-more}}
 ```
 
 ## Options
@@ -33,7 +33,7 @@ You can set these actions like the example below:
 ```
 {{#read-more onClose='yourCloseAction' onOpen='yourOpenAction'}}
   Lorem ipsum...
-{{/readmore}}
+{{/read-more}}
 ```
 
 ## Class bindings
