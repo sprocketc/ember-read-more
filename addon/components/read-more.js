@@ -23,7 +23,7 @@ export default Ember.Component.extend({
     if (!this.get('isOpen')) {
       styles += ' max-height: ' + this.get('maxHeight') + ';';
     }
-    return new Ember.Handlebars.SafeString(styles);
+    return Ember.String.htmlSafe(styles);
   }),
 
   actions: {
